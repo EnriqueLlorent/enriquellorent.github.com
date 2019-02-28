@@ -1,0 +1,96 @@
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+.container5{
+	
+	height: 100%;
+	width: 100%;
+}
+.container5{
+	
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+	
+	
+}
+.container5 .caja1{	
+
+	width: 100%;
+	height: 20%;
+	border-radius: 200px 200px 0px 0px;
+	-moz-border-radius: 200px 200px 0px 0px;
+	-webkit-border-radius: 200px 200px 0px 0px;
+	border: 2px solid #000000;
+
+}
+
+.container5 .caja2,  .container5 .caja4{
+	
+	width:15%;
+	
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border: 2px solid #000000;
+	
+}
+.container5 .caja3{  
+	
+	width: 50%;
+	height: 25%;
+	align-self: center;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+	
+}	
+.container5 .caja5, .container5 .caja6{
+	
+	width: 40%;
+	height: 20%;
+	border-left: 100px solid #428bca;
+    border-top: 50px solid #f0ad4e;
+    border-bottom: 50px solid #d9534f; 
+	border-right: 100px solid #428bca;
+	
+}
+.container5 .caja7{
+	
+	width: 25%;
+	height: 20%;
+	border-radius: 0px 0px 0px 200px;
+	-moz-border-radius: 0px 0px 0px 200px;
+	-webkit-border-radius: 0px 0px 0px 200px;
+	border: 2px solid #000000;
+	
+}
+ .container5 .caja9{
+
+	width: 25%;
+	height: 20%;
+	border-radius: 0px 0px 200px 0px;
+	-moz-border-radius: 0px 0px 200px 0px;
+	-webkit-border-radius: 0px 0px 200px 0px;
+	border: 2px solid #000000;
+	
+	
+	
+}
+.container5 .caja8{
+	
+	width: 15%;
+	height: 20%;
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border: 2px solid #000000;
+}
