@@ -1,0 +1,692 @@
+
+
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+@font-face {
+  font-family: 'Pacifico', cursive;
+  src: url('Pacifico-Regular.ttf');
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+
+.container3{ 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.container3 #auxiliar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    
+    
+    height: 100%;
+    width: 75%;
+
+      
+    
+}
+
+
+
+
+#auxiliar .caja2{
+    background-color: #38c0ed;
+    align-items: center;
+    height: 25%;
+    width: 98%;
+    background-image: url("../titulo.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#auxiliar .caja15{
+    background-color: #edcd38;
+    height: 45%;
+    width: 98%;
+    background-image: url("../wooden-clipart-6 copy.png");
+    background-position: top;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+  
+    
+}
+
+#auxiliar .caja26{
+    background-color: #edcd38;
+    height: 100%;
+    width: 98%;
+
+  
+    
+}
+
+
+#auxiliar .caja6{
+    background-color: #edcd38;
+    height: 100%;
+    width: 98%;
+    justify-content: space-around;
+    align-content: center;
+    
+
+   
+    
+}
+
+#auxiliar .caja20{
+    background-color: #edcd38;
+    height: 100%;
+    width: 98%;
+    justify-content: space-around;
+    align-content: center;
+    background-image: url("../fondo-textura-madera_1380-1.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 1000px;
+    
+
+   
+    
+}
+
+#auxiliar .caja32{
+    background-color: #edcd38;
+    height: 100%;
+    width: 98%;
+    justify-content: space-around;
+    align-content: center;   
+
+   
+    
+}
+
+
+#auxiliar .caja21{
+    border-color: transparent;
+    text-align: center;
+    height: 70%;
+    width: 50%;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+   
+}
+
+#auxiliar .caja27{
+    border-color: transparent;
+    text-align: center;
+    height: 90%;
+    width: 80%;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+#auxiliar .caja34{
+    border-color: transparent;
+    text-align: center;
+    height: 90%;
+    width: 80%;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+#auxiliar .caja33{
+    border-color: transparent;
+    text-align: center;
+    height: 90%;
+    width: 80%;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+
+
+
+#auxiliar .caja8{
+    background-color: #38c0ed;
+    height: 25%;
+    width: 98%;
+    text-align: center;
+    flex-direction: column;
+    
+    
+}
+
+
+
+
+
+.container3 .caja1{
+    background-color: #c36196;
+    height: 100%;
+    width: 25%;
+    
+}
+
+
+.container3 .caja2{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../goku_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+    
+   
+
+}
+
+.container3 .caja2:hover{
+  background: gold;
+}
+
+.container3 .caja3{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../trunks_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja3:hover{
+  background: gold;
+  
+}
+
+.container3 .caja35{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../home.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    background-size: 70px;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja35:hover{
+  background: gold;
+  
+}
+
+.container3 .caja36{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../home2.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    background-size: 70px;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja36:hover{
+  background: gold;
+  
+}
+
+.container3 .caja37{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../home.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    background-size: 70px;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja37:hover{
+  background: gold;
+  
+}
+
+.container3 .caja38{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../home.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    background-size: 70px;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja38:hover{
+  background: gold;
+  
+}
+
+.container3 .caja39{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../home.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    background-size: 70px;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja39:hover{
+  background: gold;
+  
+}
+    
+
+.container3 .caja11{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../goku_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja11:hover{
+  background: gold;
+  
+}
+
+.container3 .caja12{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../trunks_super.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja12:hover{
+  background: gold;
+  
+}
+
+.container3 .caja13{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../vegetto_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja13:hover{
+  background: gold;
+  
+}
+
+.container3 .caja14{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../vegeta_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja14:hover{
+  background: gold;
+  
+}
+
+.container3 .caja16{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../goku_super.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja16:hover{
+  background: gold;
+  
+}
+
+.container3 .caja17{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../trunks_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja17:hover{
+  background: gold;
+  
+}
+
+.container3 .caja18{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../vegetto_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+.container3 .caja18:hover{
+  background: gold;
+  
+}
+
+.container3 .caja19{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../vegeta_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja19:hover{
+  background: gold;
+  
+}
+
+.container3 .caja22{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../goku_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+    
+    
+   
+
+}
+
+.container3 .caja22:hover{
+  background: gold;
+}
+
+.container3 .caja23{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../trunks_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+    
+   
+
+}
+
+.container3 .caja23:hover{
+  background: gold;
+}
+
+.container3 .caja24{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../vegetto_super.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+    
+   
+
+}
+
+.container3 .caja24:hover{
+  background: gold;
+}
+
+
+
+.container3 .caja25{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../vegeta_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+    
+   
+
+}
+
+.container3 .caja25:hover{
+  background: gold;
+}
+
+.container3 .caja28{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../goku_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+    
+    
+   
+
+}
+
+.container3 .caja28:hover{
+  background: gold;
+}
+
+.container3 .caja29{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../trunks_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+    
+   
+
+}
+
+.container3 .caja29:hover{
+  background: gold;
+}
+
+.container3 .caja30{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../vegetto_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+    
+   
+
+}
+
+.container3 .caja30:hover{
+  background: gold;
+}
+
+.container3 .caja31{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../vegata_super.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+    
+   
+
+}
+
+.container3 .caja31:hover{
+  background: gold;
+}
+
+
+.container3 .caja5{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../vegetto_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+}
+
+.container3 .caja5:hover{
+  background: gold;
+  
+}
+
+
+
+
+.container3 .caja7{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+}
+
+.container3 .caja4{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../vegeta_normal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;   
+}
+
+.container3 .caja4:hover{
+  background: gold;
+  
+}
+
+.container3 .caja9{
+    background-color: #2deb93;
+    height: 75%;
+    width: 25%;
+    background-image: url("../vegetto_normal.png")
+     
+}
+
+
+
+
+
+
+.menu{
+    flex-wrap: wrap;
+    align-content:flex-around;
+    background-color: 38ed9a;
+}
+
+.menu .caja{
+    width: 90%;
+    height: 10%;
+}
+
+.circulo {
+     width: 40%;
+     height: 20%;
+     border-radius: 50%;
+     border-radius: 50%;
+     border-radius: 50%;
+     background: #2deb93;
+     border: solid black 3px;
+     background-image: url("../Enlight1-big.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top;
+     background-size: 100%;
+     
+}
+
+
+#Maschine01{
+    width: 640px;
+    height: 480px;
+}
+
+
+a{
+text-decoration: none;    
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
