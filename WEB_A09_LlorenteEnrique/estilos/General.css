@@ -1,4 +1,4 @@
-/* GENERALES*/
+    /* GENERALES*/
 
 *{
 	box-sizing:border-box;
@@ -52,7 +52,7 @@ li{
 
 
 #header a:hover, #header a:active {
-    background-color: red;
+    
 }
 
 #volver{
